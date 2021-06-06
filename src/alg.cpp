@@ -11,6 +11,7 @@ int priority(char Pr) {
     case '*': return 3;
     case '/': return 3;
     default: return -1;
+  }
 }
 int calculating(char Op, int Num1, int Num2) {
     switch (Op) {
